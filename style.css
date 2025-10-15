@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  text-align: center;
+  margin: 50px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: inline-block;
+}
+
+input[type="file"], input[type="text"] {
+  padding: 8px;
+  margin: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#answerBox {
+  margin-top: 20px;
+  padding: 15px;
+  background: #eef;
+  border-radius: 10px;
+}
